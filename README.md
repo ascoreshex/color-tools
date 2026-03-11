@@ -1,64 +1,33 @@
-# 🎨 Free Color Palette & Gradient Generator
+# 🎨 ASCores — Color Palette & Gradient Generator
 
-A free collection of color tools for designers and developers.
+Free color tools for designers and developers.
 
-## 🌈 Tools Included
+👉 Website:
+https://ascores.com.br
+
+---
+
+## ✨ Tools
 
 - Color Palette Generator
 - Gradient Generator
-- HEX ↔ RGB Converter
 - Color Picker
+- HEX ↔ RGB Converter
 - Color Database
 
-👉 Try online:
-https://ascores.com.br
+---
+
+## 📦 Free Color Dataset
+
+- palettes/palettes.json
+- palettes/brand-colors.json
+- gradients/gradients.json
 
 ---
 
-## 🚀 Why this project exists
+## 🚀 Example Usage
 
-Designers often need fast and accessible color combinations.
-This project provides free tools and datasets for UI/UX design.
-
----
-
-## 🔥 Features
-
-✅ Generate palettes instantly  
-✅ Create CSS gradients  
-✅ Convert color formats  
-✅ Accessibility-friendly colors  
-
----
-
-## 📦 Color Data
-
-You can use our palette database:
-
-/palettes/palettes.json
-
----
-
-## ⭐ Useful for
-
-- UI Designers
-- Frontend Developers
-- Web Designers
-- Product Designers
-
----
-## 📦 Palette Dataset
-
-https://github.com/ascoreshex/color-tools/tree/main/palettes
-
----
-
-## 🌎 Website
-
-https://ascores.com.br
-
----
-
-## License
-
-MIT
+```js
+fetch('[https://raw.githubusercontent.com/ascoreshex/ASCores-Color-Palette-Gradient-Generator/main/palettes/palettes.json')
+  .then(res => res.json())
+  .then(data => console.log(data));
