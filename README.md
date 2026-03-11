@@ -47,6 +47,11 @@ You can use our palette database:
 - Product Designers
 
 ---
+## 📦 Palette Dataset
+
+https://github.com/ascoreshex/color-tools/tree/main/palettes
+
+---
 
 ## 🌎 Website
 
